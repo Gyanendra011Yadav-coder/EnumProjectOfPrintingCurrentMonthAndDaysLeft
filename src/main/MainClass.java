@@ -24,14 +24,25 @@ public class MainClass {
                 System.out.println("CURRENT MONTH IS JANUARY.");
                 System.out.println("THE TOTAL NUMBER OF DAYS IN"+monthsName+",is "
                         +monthsObject.daysInMonths);
-
+                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS;"
+                        +(monthsObject.daysInMonths - date));
                 break;
             case FEBRUARY:
                 System.out.println("CURRENT MONTH IS FEBRUARY.");
+                System.out.println("THE TOTAL NUMBER OF DAYS, LEFT IS"
+                        +(monthsObject.daysInMonths - date));
                 break;
             case MARCH:
                 System.out.println("CURRENT MONTH IS MARCH.");
+                System.out.println("THE TOTAL NUMBER OF DAYS, LEFT IS"
+                        +(monthsObject.daysInMonths - date));
+            case APRIL:
+                System.out.println("CURRENT MONTH IS APRIL!");
+                System.out.println("THE TOTAL NUMBER OF DAYS LEFT,IN COMPLETING THIS MONTH IS"
+                +(monthsObject.daysInMonths - date));
             default:
+
+
 
         }
 
