@@ -61,22 +61,22 @@ public class MainClass {
                 break;
             case AUGUST:
                 System.out.println("CURRENT MONTH IS AUGUST.");
-                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS"+" "+
+                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS:"+" "+
                         + (monthsObject.daysInMonths - date));
                 break;
             case SEPTEMBER:
                 System.out.println("CURRENT MONTH IS SEPTEMBER.");
-                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS"+" "+
+                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS:"+" "+
                         + (monthsObject.daysInMonths - date));
                 break;
             case OCTOBER:
                 System.out.println("CURRENT MONTH IS OCTOBER.");
-                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS"+" "+
+                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS:"+" "+
                         + (monthsObject.daysInMonths - date));
                 break;
             case NOVEMBER:
                 System.out.println("CURRENT MONTH IS NOVEMBER.");
-                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS"+" "+
+                System.out.println("THE TOTAL NUMBER OF DAYS,LEFT IN COMPLETING THIS MONTH IS:"+" "+
                         + (monthsObject.daysInMonths - date));
                 break;
             case DECEMEBER:
