@@ -41,8 +41,11 @@ public class MainClass {
                 System.out.println("THE TOTAL NUMBER OF DAYS LEFT,IN COMPLETING THIS MONTH IS"
                 +(monthsObject.daysInMonths - date));
             case MAY:
-                System.out.println("THE CURRENT MONTH IS MAY!"
-                +(monthsObject.daysInMonths - date));
+                System.out.println("THE CURRENT MONTH IS MAY!");
+
+                System.out.println("THE DAYS LEFT IN COMPLETING THE MONTH IS" +
+                        +(monthsObject.daysInMonths - date));
+
 
             default:
 
