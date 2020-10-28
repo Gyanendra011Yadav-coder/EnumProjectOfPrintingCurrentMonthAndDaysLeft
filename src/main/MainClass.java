@@ -17,11 +17,14 @@ public class MainClass {
         System.out.println("ENTER THE NAME OF THE CURRENT MONTH:-");
         String monthsName = scannerObject.nextLine().trim().toUpperCase();
         System.out.println("ENTER THE CURRENT DATE:-");
+        int date = scannerObject.nextInt();
         Months monthsObject = Months.valueOf(monthsName);
         switch (monthsObject){
             case JANUARY:
                 System.out.println("CURRENT MONTH IS JANUARY.");
-                System.out.println();
+                System.out.println("THE TOTAL NUMBER OF DAYS IN"+monthsName+",is "
+                        +monthsObject.daysInMonths);
+
                 break;
             case FEBRUARY:
                 System.out.println("CURRENT MONTH IS FEBRUARY.");
