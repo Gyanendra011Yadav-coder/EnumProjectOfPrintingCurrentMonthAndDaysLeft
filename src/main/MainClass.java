@@ -7,7 +7,14 @@
 
 package main;
 
+import java.util.Scanner;
+
 public class MainClass {
+    public static void main(String[] args) {
+        Scanner scannerObject = new Scanner(System.in);
+        Months monthsObject = Months.valueOf(scannerObject.nextLine());
+
+    }
 
 }
 
