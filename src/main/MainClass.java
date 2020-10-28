@@ -14,24 +14,26 @@ import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
         Scanner scannerObject = new Scanner(System.in);
-        System.out.println("ENTER THE NAME OF THE MONTH.");
-        String monthsName = scannerObject.nextLine();
+        System.out.println("ENTER THE NAME OF THE CURRENT MONTH:-");
+        String monthsName = scannerObject.nextLine().trim().toUpperCase();
+        System.out.println("ENTER THE CURRENT DATE:-");
         Months monthsObject = Months.valueOf(monthsName);
         switch (monthsObject){
-            case January:
+            case JANUARY:
                 System.out.println("CURRENT MONTH IS JANUARY.");
+                System.out.println();
                 break;
-            case February:
+            case FEBRUARY:
                 System.out.println("CURRENT MONTH IS FEBRUARY.");
                 break;
-            case March:
+            case MARCH:
                 System.out.println("CURRENT MONTH IS MARCH.");
             default:
 
         }
 
 
-
+        scannerObject.close();
     }
 
 }

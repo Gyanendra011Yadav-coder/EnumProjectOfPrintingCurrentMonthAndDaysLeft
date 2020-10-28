@@ -1,18 +1,18 @@
 package main;
 
 public enum Months {
-    January(31),
-    February(28),
-    March(31),
-    April(30),
-    May(31),
-    June(30),
-    July(31),
-    August(30),
-    September(31),
-    October(30),
-    November(31),
-    December(30);
+    JANUARY(31),
+    FEBRUARY(28),
+    MARCH(31),
+    APRIL(30),
+    MAY(31),
+    JUNE(30),
+    JULY(31),
+    AUGUST(30),
+    SEPTEMBER(31),
+    OCTOBER(30),
+    NOVEMBER(31),
+    DECEMEBR(30);
 
     int daysInMonths;
     Months (int daysInMonths){
