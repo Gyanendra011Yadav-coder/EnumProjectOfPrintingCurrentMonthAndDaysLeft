@@ -19,6 +19,10 @@ public enum Months {
         this.daysInMonths = daysInMonths;
     }
 
+    public int getDaysInMonths(){
+        return daysInMonths;
+    }
+
 
     
 }
